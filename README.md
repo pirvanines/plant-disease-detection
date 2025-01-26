@@ -6,6 +6,10 @@ Cererile sunt interpretate de serverul aplicatiei, iar plantele pe care le poate
 
 La nivelul aplicatiei administrator se realizeaza antrenarea retelei neuronale, generarea fisierelor de configurare si actualizarea datelor la nivel de server prin internet. Pentru a asigura autenticitatea datelor, am realizat criptarea datelor cu RSA.
 
+# Scop
+
+Scopul acestui proiect este de a pune la dispozitia utilizatorilor o unealta de identificare a anumitor caracteristici in imagini cu ajutorul retelelor neuronale convolutionale. In cadrul acestui proiect am realizat un sudiu de caz asupra identificarii bolilor la frunzele de capsuna.
+
 # Instructiuni de utilizare
 
 ## Cerințe preliminare ##
