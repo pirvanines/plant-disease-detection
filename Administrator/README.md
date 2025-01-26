@@ -1,3 +1,8 @@
+# Arhitectura aplicatiei
+
+![admin1](https://github.com/user-attachments/assets/f5cb788f-84a0-4c11-9d16-47412fa89c2b)
+
+
 # Instalare proiect
 
 ## Cerinte preliminare
