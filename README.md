@@ -41,6 +41,4 @@ Scopul acestui proiect este de a pune la dispozitia utilizatorilor o unealta de 
 - se acceseaza din browserul web http://IP:port/ si se navigheaza in aplicatie
 - se executa comenzi din interfata administrator conform optiunilor puse la dispozitie
 
-## Contributing
 
-If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
