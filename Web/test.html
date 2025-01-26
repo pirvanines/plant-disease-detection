@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "ro-RO">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./css/test.css" />
+        <script src="./js/client.js"></script>
+    </head>
+
+    <body class="acasa">
+        <section>
+            <div class="content">
+                <div>
+                    <h1>Selectează o imagine și apasă butonul încarcă pentru a primi rezultatul</h1>
+                </div>
+                
+                <div class="rezultate">
+                    <div class = "column" >
+                        <div>
+                            <h3>Încarcă imaginea</h3>
+                        </div>
+                        <div class="posImage">
+                            <div id = "imageContainer"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div>
+                            <h3>Rezultatul obținut</h3>
+                        </div>
+                        <div>
+                            <div id = "result"></div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="load">
+                    <form id = "upload">
+                        <div>
+                            <input type="file" id = "fileInput" name="file" accept="image/*" onchange="displayImage(this)">
+                        </div>
+                        <div>
+                            <button class="incarca" type="button" onclick = "uploadFile()">Încarcă</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>

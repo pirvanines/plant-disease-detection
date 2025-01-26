@@ -1,0 +1,85 @@
+.content{
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: rgba(246, 255, 255,0.5);
+    margin-bottom: 20px;
+}
+
+.content div{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1{
+    padding: 15px;
+}
+
+.rezultate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 1vh;
+    padding: 1vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#imageContainer img {
+    display: block;
+    max-width: 1vw;
+    max-height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+#load{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.posImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.incarca {
+    background-color: black; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    width: 100px; 
+    height: 40px; 
+}
+
+.incarca:hover {
+    background-color: grey; /* Culoarea de fundal când e hover */
+}
+
+#fileInput {
+    background-color: black; /* Culoarea de fundal a inputului */
+    color: white; /* Culoarea textului */
+    border: none; /* Fără border */
+    padding: 10px 20px; /* Marimea inputului */
+    text-align: center; /* Alinierea textului */
+    display: inline-block; /* Pentru a putea seta dimensiunile */
+    font-size: 16px; /* Marimea textului */
+    cursor: pointer; /* Cursor pointer */
+    width: 100px; /* Latimea inputului pentru a fi patrat */
+    height: 40px; /* Inaltimea inputului pentru a fi patrat */
+    box-sizing: border-box; /* Include padding-ul și border-ul în dimensiuni */
+}
