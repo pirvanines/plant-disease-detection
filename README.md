@@ -4,7 +4,7 @@ Aceasta este o aplicatie web ce are ca scop analiza starii de sanatate a unei pl
 
 Cererile sunt interpretate de serverul aplicatiei, iar plantele pe care le poate analiza acesta sunt determinate de datele de antrenare setate de administrator din aplicatia dedicata.
 
-La nivelul aplicatiei administrator se realizeaza antrenarea retelei neuronale, generarea fisierelor de configurare si actualizarea datelor la nivel de server prin internet.
+La nivelul aplicatiei administrator se realizeaza antrenarea retelei neuronale, generarea fisierelor de configurare si actualizarea datelor la nivel de server prin internet. Pentru a asigura autenticitatea datelor, am realizat criptarea datelor cu RSA.
 
 # Instructiuni de utilizare
 
