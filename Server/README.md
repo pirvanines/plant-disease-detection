@@ -1,16 +1,16 @@
-# Arhitectura aplicatiei
+# Architecture
 
 <img width="661" height="511" alt="client" src="https://github.com/user-attachments/assets/4a9d8c5b-bf62-49a5-b56f-034e80562c37" />
 
 
 
-# Instalare proiect
+# Project Installation
 
-## Cerinte preliminare
+## Prerequisites
 - Anaconda Python
 
-## Pasi de instalare
-- Se creaza mediul virtual: **conda create --name Server python=3.8.19**
-- Se activeaza mediul virtual: **conda activate Server**
-- Se instaleaza toate dependintele aflate in fisierul ./requirements.txt: **pip install -r requirements.txt**
-- Se instaleaza toate dependintele aflate in fisierul ./yolov5/requirements.txt: **pip install -r requirements.txt**
+## Installation steps
+- Create the virtual environment: **conda create --name Server python=3.8.19**
+- Activate the virtual environment: **conda activate Server**
+- Install all dependencies listed in the ./requirements.txt file: **pip install -r requirements.txt**
+- Install all dependencies listed in the ./yolov5/requirements.txt file from the yolov5 directory: **pip install -r requirements.txt**
