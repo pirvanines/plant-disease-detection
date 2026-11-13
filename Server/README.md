@@ -1,6 +1,7 @@
 # Arhitectura aplicatiei
 
-![server](https://github.com/user-attachments/assets/bd7e20a1-0629-43fe-afdf-e72bde1929a9)
+<img width="661" height="511" alt="client" src="https://github.com/user-attachments/assets/4a9d8c5b-bf62-49a5-b56f-034e80562c37" />
+
 
 
 # Instalare proiect
