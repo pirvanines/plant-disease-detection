@@ -1,44 +1,44 @@
-# Descriere
+# Description
 
-Aceasta este o aplicatie web ce are ca scop analiza starii de sanatate a unei plante.
+This is a web application designed to analyze the health status of a plant.
 
-Cererile sunt interpretate de serverul aplicatiei, iar plantele pe care le poate analiza acesta sunt determinate de datele de antrenare setate de administrator din aplicatia dedicata.
+Requests are interpreted by the application server, and the plants it can analyze are determined by the training data configured by the administrator through the dedicated application.
 
-La nivelul aplicatiei administrator se realizeaza antrenarea retelei neuronale, generarea fisierelor de configurare si actualizarea datelor la nivel de server prin internet. Pentru a asigura autenticitatea datelor, am realizat criptarea datelor cu RSA.
+The administrator application is responsible for training the neural network, generating configuration files, and updating the server-side data over the internet. To ensure data authenticity, RSA encryption was used.
 
-# Scop
+# Purpose
 
-Scopul acestui proiect este de a pune la dispozitia utilizatorilor o unealta de identificare a anumitor caracteristici in imagini cu ajutorul retelelor neuronale convolutionale. In cadrul acestui proiect am realizat un sudiu de caz asupra identificarii bolilor la frunzele de capsuna.
+This project provides a tool for identifying specific characteristics in images using convolutional neural networks (CNNs). It's functionality was proven by identifying the diseases affecting strawberry leaves.
 
-# Instructiuni de utilizare
+# User Instructions
 
-## Cerințe preliminare ##
+## Prerequisites ##
 
-- Se va asigura ca path-ul pana la acest folder nu contine spatii
+- Ensure that the path to this folder does not contain any spaces
 
-- Se va crea mediul virtual conform instructiunilor din folderul **Administrator/README.md**
-- Se va crea mediul virtual conform instructiunilor din folderul **Server/README.md**
+- Create one virtual environment for Admin; check **Administrator/README.md**
+- Create another virtual environment for Server; check **Server/README.md**
 
-- Pentru utilizarea proiectului se vor modifica adresele IP in urmatoarele 2 fisiere:
-    - **Web/js/script.js:** la inceputul fisierului (linia 1), se introduce ip-ul masinii unde se va rula serverul
-    - **Administrator/Interfata/interfata.py:** la inceputul fisierului (linia 7) se modifica ip-ul masinii unde se va rula serverul
-
-
+- To use this app, enter the IP address of the machine on which the server will run:
+    - **Web/js/script.js:** line 1
+    - **Administrator/Interfata/interfata.py:** line 7
 
 
-## Executia programului ##
+
+## Running the Application ##
 
 ### Server:
-- se deschide o consola cmd cu drepturi de administrator
-- Se activeaza mediul virtual al serverului
-- se porneste fisierul de executie al serverului: **Server/server.py**
+- Open a Command Prompt (CMD) window with administrator privileges
+- Activate the server's virtual environment
+- Run the server's main execution file: **Server/server.py**
 
 ### Administrator:
-- se activeaza mediul virtual al administratorului
-- se porneste fisierul de executie al administratorului: **Administrator/Interfata/interfata.py**
+- Open a Command Prompt (CMD) window with administrator privileges
+- Activate the administrator's virtual environment
+- Run the administrator application's main execution file: **Administrator/Interfata/interfata.py**
 
-### Executia:
-- se acceseaza din browserul web http://IP:port/ si se navigheaza in aplicatie
-- se executa comenzi din interfata administrator conform optiunilor puse la dispozitie
+### Using the Application:
+- Open a web browser and navigate to **http://IP:port/** to access and interact with the application
+- Execute commands through the administrator interface using the available options.
 
 
